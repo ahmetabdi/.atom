@@ -1,0 +1,85 @@
+{
+  "name": "atom-spotify2",
+  "main": "./lib/atom-spotify",
+  "version": "2.1.2",
+  "description": "Displays the currently playing song in Spotify in Atom's status bar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albertorestifo/atom-spotify2"
+  },
+  "os": [
+    "darwin"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "spotify-node-applescript": "0.2.x"
+  },
+  "readme": "# atom-spotify2 :notes:\n\n__[atom-spotify] was no longer mantained, so I forked it and resolved all the deprecations__\n\nDisplays the currently playing song in Spotify in Atom's status bar.\n\n![](https://dl.dropbox.com/s/5grx2ol4g4lcvb0/Screenshot%202014-02-28%2021.40.14.png)\n\nUse the following key commands to control Spotify from inside Atom:\n\n- **Play next song**: `cmd-alt-shift-right`\n- **Play previous song**: `cmd-alt-shift-left`\n\nOr use the menu items in *Packages -> Spotify*.\n\nPull requests welcome (and encouraged!)\n\n[atom-spotify]: https://github.com/jakemarsh/atom-spotify\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/albertorestifo/atom-spotify2/issues"
+  },
+  "homepage": "https://github.com/albertorestifo/atom-spotify2",
+  "_id": "atom-spotify2@2.1.2",
+  "_shasum": "5fe748aae4c1a5949f53a988ed65a60ef59fbb76",
+  "_resolved": "file:../d-115526-22316-1v9oszh/package.tgz",
+  "_from": "../d-115526-22316-1v9oszh/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "spotify-node-applescript",
+        "version": "0.2.2",
+        "path": "node_modules/spotify-node-applescript/lib/spotify-node-applescript.js"
+      },
+      {
+        "name": "applescript",
+        "version": "1.0.0",
+        "path": "node_modules/spotify-node-applescript/node_modules/applescript/lib/applescript.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/atom-spotify-status-bar-view.coffee",
+        "lib/atom-spotify.coffee"
+      ],
+      ".js": [
+        "node_modules/spotify-node-applescript/lib/spotify-node-applescript.js",
+        "node_modules/spotify-node-applescript/node_modules/applescript/lib/applescript-parser.js",
+        "node_modules/spotify-node-applescript/node_modules/applescript/lib/applescript.js",
+        "node_modules/spotify-node-applescript/node_modules/applescript/samples/execFile.js",
+        "node_modules/spotify-node-applescript/node_modules/applescript/samples/execString.js"
+      ],
+      ".json": [
+        "node_modules/spotify-node-applescript/node_modules/applescript/package.json",
+        "node_modules/spotify-node-applescript/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "spotify-node-applescript": "0.2.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/spotify-node-applescript/lib",
+          "node_modules/spotify-node-applescript",
+          "node_modules/spotify-node-applescript/test"
+        ],
+        "dependencies": {
+          "applescript": "1.0.0"
+        }
+      }
+    ]
+  }
+}

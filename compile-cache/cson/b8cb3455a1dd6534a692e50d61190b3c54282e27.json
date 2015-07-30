@@ -1,0 +1,1 @@
+{"context-menu":{"atom-text-editor":[{"label":"Toggle celebrate","command":"celebrate:toggle"}]},"menu":[{"label":"Packages","submenu":[{"label":"celebrate","submenu":[{"label":"Toggle","command":"celebrate:toggle"}]}]}]}

@@ -1,0 +1,1 @@
+{"digest":"69780e723d8f0d89ba163566d15d580e97dfc879","css":"html,\nbody,\n.tree-view,\n.tab-bar .tab {\n  font-size: 11px;\n}\n","imports":[{"path":"static/variables/ui-variables.less","digest":"8941827f61ffe6109d099580717e5ea2d0b9cd3c"},{"path":"static/variables/syntax-variables.less","digest":"812c1b7883a023f768773d14294653adcdb932d7"}],"version":1}

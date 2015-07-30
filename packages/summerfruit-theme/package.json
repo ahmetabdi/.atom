@@ -1,0 +1,45 @@
+{
+  "name": "summerfruit-theme",
+  "theme": "syntax",
+  "version": "1.7.0",
+  "description": "A happy-happy-joy-joy light syntax theme. A port of Adrian Demleitner' Textmate Summerfruit theme (ported from a vim theme).",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlo/summerfruit-theme"
+  },
+  "license": "WTFPL",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "contributors": [
+    {
+      "name": "Carlo Zottmann",
+      "email": "carlo@zottmann.org"
+    },
+    {
+      "name": "Adrian Demleitner",
+      "email": "y@thgie.ch",
+      "url": "ST2 theme port"
+    }
+  ],
+  "readme": "# Summerfruit syntax theme\n\nA port of [Adrian Demleitner' Textmate Summerfruit theme](https://github.com/thgie/Summerfruit),\nwhich itself is a port of [an old vim theme](http://www.vim.org/scripts/script.php?script_id=1872).\n\nThis port was created by converting it from the Textmate theme, then _slightly_\nadjusting gutter margin & color as well as the invisibles to my liking.\n\n\n## Screenshot\n\n![Screenshot of theme showing Ruby code](https://raw.githubusercontent.com/carlo/summerfruit-theme/master/summerfruit-theme.png)\n\n\n## Developers\n\nOriginal vim theme by [Armin Ronacher](http://www.vim.org/scripts/script.php?script_id=1872),\ntmTheme port by [Adrian Demleitner](https://github.com/thgie),\nAtom port of tmTheme (+ minor adjustments) by [Carlo Zottmann](https://github.com/carlo).\n\n\n## License\n\nThere were no licenses attached to the original works, so this here port falls\nunder the WTFPL.\n\n    DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\n    Version 2, December 2004\n\n    Copyright (C) 2004 Sam Hocevar\n    14 rue de Plaisance, 75014 Paris, France\n    Everyone is permitted to copy and distribute verbatim or modified\n    copies of this license document, and changing it is allowed as long\n    as the name is changed.\n\n    DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\n    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n    0. You just DO WHAT THE FUCK YOU WANT TO.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/carlo/summerfruit-theme/issues"
+  },
+  "homepage": "https://github.com/carlo/summerfruit-theme",
+  "_id": "summerfruit-theme@1.7.0",
+  "_shasum": "945d09573c1ff055bf4ccff697b0abeaf3d2272b",
+  "_resolved": "file:../d-115427-4482-1278bnp/package.tgz",
+  "_from": "../d-115427-4482-1278bnp/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

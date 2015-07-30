@@ -1,0 +1,37 @@
+'.platform-darwin atom-text-editor':
+  'cmd-e': 'unset!'
+  'cmd-e': 'symbols-view:go-to-declaration'
+  'cmd-b': 'unset!'
+  'cmd-b': 'beautify:beautify-editor'
+  'cmd-r': 'unset!'
+  'cmd-r': 'rails-rspec:toggle-spec-file'
+  'cmd-left': 'unset!'
+  'cmd-left': 'editor:move-to-beginning-of-word'
+  'cmd-right': 'unset!'
+  'cmd-right': 'editor:move-to-end-of-word'
+# `gem install htmlbeautifier`
+# `gem install rbeautify`
+
+'.editor':
+  'ctrl-r': 'rspec:run'
+
+'atom-text-editor':
+  'f2': 'unset!'
+
+# Add new file hotkey in treeview
+'.tree-view':
+  'a': 'tree-view:add-file'
+
+'atom-workspace':
+  'f1': 'open-on-github:file'
+  'f2': 'open-on-github:blame'
+
+'.workspace':
+  'f4': 'symbol-gen:generate' # Generate tags file for go-to-declaration
+
+'.platform-darwin, .platform-darwin .command-palette .atom-text-editor':
+  'ctrl-2': 'atom-spotify:next'
+  'ctrl-1': 'atom-spotify:previous'
+  'ctrl-3': 'atom-spotify:togglePlay'
+  'ctrl-alt-P': 'atom-spotify:play'
+  'ctrl-alt-p': 'atom-spotify:pause'

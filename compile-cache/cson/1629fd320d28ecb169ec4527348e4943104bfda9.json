@@ -1,0 +1,1 @@
+{"context-menu":{"atom-workspace atom-text-editor:not(.mini)":{"Enable atom-beautify":"beautify:beautify-editor"},".tree-view .file > .name":{"Beautify File":"beautify:beautify-file"}},"menu":[{"label":"Packages","submenu":[{"label":"Beautify","command":"beautify:beautify-editor"}]}]}

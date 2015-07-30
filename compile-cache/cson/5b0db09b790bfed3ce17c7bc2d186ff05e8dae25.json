@@ -1,0 +1,1 @@
+{"menu":[{"label":"Packages","submenu":[{"label":"Asteroids","submenu":[{"label":"Play","command":"asteroids:play"}]}]}]}

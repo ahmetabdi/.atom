@@ -1,0 +1,1 @@
+{"menu":[{"label":"Packages","submenu":[{"label":"Spec Maker","submenu":[{"label":"Open or create spec for current file","command":"spec-maker:open-or-create-spec"}]}]}]}
